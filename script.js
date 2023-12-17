@@ -24,7 +24,7 @@ function giftOpen() {
                     jQuery("#houu").fadeIn(1000);
                     jQuery("#box").fadeIn(1000);
                 }, 1000);
-                document.querySelector('.ty-text').style.backgroundColor = '#473838';
+                // document.querySelector('.ty-text').style.backgroundColor = '#473838';
 
                 //jQuery(".gift-card-text").fadeIn(5000);
                 showText(); // Điều chỉnh thời gian hiển thị tại đây
@@ -147,7 +147,7 @@ async function showText() {
     document.querySelector('.t2').style.display = 'none';
 
 
-    document.querySelector('.ty-text').style.backgroundColor = '#a00707';
+    // document.querySelector('.ty-text').style.backgroundColor = '#a00707';
 
     document.querySelector('.t3').style.display = 'flex';
     await sleep(1000);
@@ -158,7 +158,7 @@ async function showText() {
 
     await sleep(2000);
     document.querySelector('.star').style.display = 'block';
-    document.querySelector('.ty-text').style.backgroundColor = '#ffffff';
+    // document.querySelector('.ty-text').style.backgroundColor = '#ffffff';
 
     document.querySelector('.background-none')
     document.querySelector('.background-none').style.display = 'none';
